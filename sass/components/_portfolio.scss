@@ -96,7 +96,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 
   margin-top: 0px;
   margin-bottom: 0px;
@@ -106,7 +106,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 
   margin-top: 4px;
   margin-bottom: 0px;

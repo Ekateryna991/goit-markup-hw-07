@@ -1166,6 +1166,10 @@ a {
   margin-left: 32px;
 }
 
+.contact {
+  margin-left: auto;
+}
+
 .customers-list {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -6,3 +6,8 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.company-title {
+  @extend %margin-auto;
+  width: 696px;
+}

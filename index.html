@@ -491,48 +491,59 @@
 
         <form class="form js-speacker-form">
 
-          <label class="form-field">
-            <input type="text" class="form-input" name="name" id="name" placeholder=" "  />
-            <span class="form-label">Имя</span>
-            <svg class="icon-form">
-              <use href="./img/sprite.svg#icon-form-person" width=18px height=18px></use>
-            </svg>
-          </label>
+          <ul class="list">
+            <li>
+              <label class="form-field">
+                <input type="text" class="form-input" name="name" id="name" placeholder=" " />
+                <span class="form-label">Имя</span>
+                <svg class="icon-form">
+                  <use href="./img/sprite.svg#icon-form-person" width=18px height=18px></use>
+                </svg>
+              </label>
+            </li>
 
-          <label class="form-field">
-            
-            <input type="tel" class="form-input" name="tel" id="tel" placeholder=" " />
-            <span class="form-label">Телефон</span>
-            <svg class="icon-form">
-              <use href="./img/sprite.svg#icon-form-phone" width=18px height=18px></use>
-            </svg>
-          </label>  
+            <li>
+              <label class="form-field">
+              
+                <input type="tel" class="form-input" name="tel" id="tel" placeholder=" " />
+                <span class="form-label">Телефон</span>
+                <svg class="icon-form">
+                  <use href="./img/sprite.svg#icon-form-phone" width=18px height=18px></use>
+                </svg>
+              </label>
+            </li> 
 
-          <label class="form-field">
-            
-            <input type="email" class="form-input" name="email" id="email" placeholder=" "/>
-            <span class="form-label">Почта</span>
-            <svg class="icon-form">
-              <use href="./img/sprite.svg#icon-form-email" width=18px height=18px></use>
-            </svg>
-          </label>
+            <li>
+                <label class="form-field">
+                
+                  <input type="email" class="form-input" name="email" id="email" placeholder=" " />
+                  <span class="form-label">Почта</span>
+                  <svg class="icon-form">
+                    <use href="./img/sprite.svg#icon-form-email" width=18px height=18px></use>
+                  </svg>
+                </label>
+            </li>
 
+            <li>
+              <label class="form-field">
+              
+                <textarea name="comment" class="form-textarea" id="comment" cols="30" rows="10" placeholder=" "></textarea>
+              
+                <!-- <label for="comment" class="form-label comment">Комментарий</label> -->
+                <span for="comment" class="comment">Комментарий</span>
+              </label>
+            </li>
 
-          <div class="form-field">
-            
-            <textarea name="comment" class="form-textarea" id="comment" cols="30" rows="10" placeholder=" "></textarea>
-            
-             <!-- <label for="comment" class="form-label comment">Комментарий</label> --> 
-            <label for="comment" class="comment">Комментарий</label>
-          </div>
-        <!-- </form> -->
-          
-          <label class="policy">
-            <input class="checkbox" type="checkbox" name="policy" id="policy" />
-            <span class="icon-chek"></span>
-            <span>Соглашаюсь с рассылкой и принимаю 
-            <a href="" class="aktcent decoration">Условия договора</a></span>
-          </label>
+            <li>
+              <label class="policy">
+                <input class="checkbox" type="checkbox" name="policy" id="policy" />
+                <span class="icon-chek"></span>
+                <span>Соглашаюсь с рассылкой и принимаю
+                  <a href="" class="aktcent decoration">Условия договора</a></span>
+              </label>
+            </li>
+
+          </ul>
 
           <button type="submit" class="button submit">Отправить</button>
          
